@@ -21,11 +21,241 @@
     <title>OctoChat</title>
 
     <!-- Stylesheet Link -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus+Slab">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Animated-Text-Background.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background: rgb(75, 90, 142);">
+        <div class="container">
+            <a class="navbar-brand">OctoChat</a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutUs">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contactUs">Contact Us</a></li>
+                </ul><span class="navbar-text actions"> <a class="login" href="#">Log In</a><a class="btn btn-light action-button" role="button" href="#">Sign Up</a></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Heading -->
+    <div class="d-flex justify-content-center align-items-center" id="animatedTextBackground" style="height: 670px;background: rgb(35, 42, 66);">
+        <h1 id="animatedTextHeading">OctoChat</h1>
+    </div>
+
+    <!-- About us with phone mockup -->
+    <section id="aboutUs" class="highlight-phone" style="height: 502.6px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="intro">
+                        <h2>About Us</h2>
+                        <p>OctoChat is an opensource chat application for GitHub users. <br>
+                            It is a web application to easily connect people on the GitHub for better communication/interaction among them.</p>
+                        <a class="btn btn-primary" role="button" href="#">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-none d-md-block phone-mockup">
+                        <img class="device" src="assets/img/phone.svg">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
+
+    <!-- Technology and tools used -->
+    <section class="projects-horizontal">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Technology & Tools</h2>
+                <p class="text-center">OctoChat is build using the following technology and tools available. </p>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5">
+                                <img class="img-fluid" src="assets/img/microsoft-azure.png">
+                        </div>
+                        <div class="col">
+                            <h3 class="name">Microsoft Azure</h3>
+                            <p class="description">Microsoft Azure, often referred to as Azure, is a cloud computing service operated by Microsoft for application management via Microsoft-managed data centers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/git-github.png"></div>
+                        <div class="col">
+                            <h3 class="name">Git & GitHub</h3>
+                            <p class="description">
+                                Git is a free and open source distributed version control system.
+                                GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/html-css-bootstrap.png"></div>
+                        <div class="col">
+                            <h3 class="name">HTML, CSS & Bootstrap</h3>
+                            <p class="description">
+                                HTML is the standard markup language for documents designed to be displayed in a web browser.
+                                CSS is a style sheet language used for describing the presentation of a document written in a markup language.
+                                Bootstrap is a free and open-source CSS framework.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/js-node-react.png"></div>
+                        <div class="col">
+                            <h3 class="name">JavaScript, Node & React</h3>
+                            <p class="description">
+                                JavaScript is the programming language of the Web.
+                                Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+                                React is a free and open-source front-end JavaScript library for building user interfaces based on UI components
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Features of octochat -->
+    <section id="features" class="features-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Features </h2>
+                <p class="text-center">
+                    Octochat is loaded with the following features to increase your overall experience.
+                    <a href="#">LogIn/SignUp</a> to get started.
+                </p>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-user icon"></i>
+                        <h3 class="name">Simple LogIn/SignUp</h3>
+                        <p class="description">
+                            Simple and fast LogIn/SignUp directly using your GitHub account.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-cloud-upload icon"></i>
+                        <h3 class="name">Cloud Storage & Backup</h3>
+                        <p class="description">
+                            Complete data is stored and backed up on Microsoft Azure cloud environment.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-lock icon"></i>
+                        <h3 class="name">Data Security</h3>
+                        <p class="description">
+                            Data remains secured using security protocols and techniques of Azure cloud.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-warning icon"></i>
+                        <h3 class="name">Notification</h3>
+                        <p class="description">
+                            Get notified everytime someone messages you or connects with you.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-github icon"></i>
+                        <h3 class="name">GitHub Community</h3>
+                        <p class="description">
+                            Find and connect with developers on GitHub directly without any hassle of finding their contacts.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-group icon"></i>
+                        <h3 class="name">Group Chats</h3>
+                        <p class="description">
+                            Communicate with multiple people at the same time or instantly chat to everyone in your team.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact us form -->
+    <section id="contactUs" class="contact-clean">
+        <form method="post">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="mb-3">
+                <input class="form-control" type="text" name="name" placeholder="Name">
+            </div>
+            <div class="mb-3">
+                <input class="form-control is-invalid" type="email" name="email" placeholder="Email">
+                <small class="form-text text-danger">Please enter a correct email address.</small>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">send </button>
+            </div>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer-basic">
+        <!-- Navigation Links -->
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#features">Features</a></li>
+            <li class="list-inline-item"><a href="#aboutUs">About</a></li>
+            <li class="list-inline-item"><a href="./assets/html/termsAndPolicy.html" target="_blank">Terms</a></li>
+            <li class="list-inline-item"><a href="./assets/html/privacyPolicy.html" target="_blank">Privacy Policy</a></li>
+        </ul>
+        <br>
+        <!-- Social media links with copyright -->
+        <div class="social">
+            <a href="https://www.instagram.com/thisisaviii/" target="_blank"><i class="icon ion-social-instagram"></i></a>
+            <a href="https://github.com/razorblack" target="_blank"><i class="icon ion-social-github"></i></a>
+            <a href="https://twitter.com/thisisaviii" target="_blank"><i class="icon ion-social-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/thisisaviii" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+            <p class="copyright">Avinash Maurya © 2022</p>
+        </div>
+    </footer>
+
+
     <!-- Script file -->
-    <script src="./main.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/Animated-Text-Background.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
